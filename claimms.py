@@ -111,6 +111,7 @@ fig4.update_layout( title = dict(x=0.5), paper_bgcolor="#BDBDBD")
 fig4.update_traces(texttemplate = '%{text:.2s}')
 
 app = dash.Dash(__name__)
+server = app.server
 app.layout = html.Div(
     children=[
         html.Div(
