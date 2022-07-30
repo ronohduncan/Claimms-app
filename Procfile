@@ -1,1 +1,1 @@
-web: gunicorn claimms:server
+web:gunicorn claimms.py:server
