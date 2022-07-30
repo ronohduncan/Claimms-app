@@ -1,5 +1,3 @@
-from re import X
-from tkinter import Y
 import pandas as pd
 import numpy as np
 import plotly.express as px
@@ -7,9 +5,6 @@ import plotly.graph_objects as go
 import dash
 from dash import dcc
 from dash import html
-from dash.dependencies import Input, Output
-import json
-
 
 Q1 = pd.read_excel('Q1_2022_CLAIMS.xlsx')
 fig1 = px.bar(
